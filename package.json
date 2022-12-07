@@ -1,7 +1,6 @@
 {
   "name": "clark-county-admin",
   "version": "1.0.0",
-  "description": "",
   "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +11,19 @@
   "dependencies": {
     "axios": "^0.24.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
-  }
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.26.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajeddin/sql_basics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajeddin/sql_basics/issues"
+  },
+  "homepage": "https://github.com/ajeddin/sql_basics#readme",
+  "description": ""
 }
